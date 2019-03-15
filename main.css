@@ -1,5 +1,102 @@
-.topContainer{
-    border: 50px;
+@font-face {
+    font-family: SourceSansPro-ExtraLight;
+    src: url("../fonts/SourceSansPro-ExtraLight.woff");
+    font-weight: 100px;
+}
+
+@font-face {
+    font-family: KozGoPro-Light;
+    src: url("../fonts/KozGoPro-Light.woff");
+    font-weight: 100px;
+}
+
+.topContainer {
+    height: 60px;
+    max-width: 100%;
     background-color: #e0a906;
     text-align: center;
+    position: -webkit - sticky;
+    /*For safari browsers */
+    position: sticky;
+    top: 0;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #4d2e19
+}
+
+.sourceSans {
+    height: 100%;
+    background-color: #4d2e19;
+    padding: 10px;
+    color: #f1e5d1;
+    flex-flow: column;
+    font-family: monospace;
+
+}
+
+.kozuka {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #d6d6d6;
+    padding: 10px;
+    color: #444444;
+    font-family: monospace;
+}
+
+.gotham {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #186000;
+    padding: 10px;
+    color: #a3f986;
+    font-family: monospace;
+}
+
+.roboto {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #72011d;
+    padding: 10px;
+    color: white;
+    font-family: monospace;
+}
+
+.lato {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    font-family: monospace;
+}
+
+.raleway {
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #e0a906;
+    padding: 10px;
+    color: #000;
+    font-family: monospace;
+}
+
+.dbutton {
+    border-radius: 20px;
+    background: #73AD21;
+    padding: 5px;
+    width: 20px;
+    height: 50px;
+    font-size-adjust: auto;
+    font-family: monospace;
+    text-transform: uppercase;
+
+
+}
+
+.social{
+    max-height:100%;
+    max-width:100px;
+    background-color: white;
+    border-radius:5px;
+    padding: 5px;
 }
